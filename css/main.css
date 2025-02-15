@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(46, 176, 46);
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 8px 15px;
+}
+
+#desc {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+aside {
+    background-color: rgb(179, 179, 179);
+    width: 400px;
+    padding: 15px;
+    flex-shrink: 0;
+}
+
+.img {
+    height: 200px;
+    width: 360px;
+    background-color: #333;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.9em;
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    background-color: #333;
+    height: 70px;
+    padding: 20px;
+    color: white;
+}
+
+article {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+}
+
+.description {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.description:last-child {
+    border-bottom: none;
+}
+
+.title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.title-desc {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.immg {
+    height: 200px;
+    background-color: #333;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.9em;
+    border-radius: 4px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+}

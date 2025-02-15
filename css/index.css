@@ -1,0 +1,35 @@
+header, footer{
+    height: 200px;
+    width: 100%;
+    background-color: brown;
+}
+.section{
+    height: 300px;
+    /* top: 130; */
+    width: 100%;
+    background-color: brown;
+}
+
+.cards{
+    display: inline-block;
+    height: 200px;
+    width: 30%;
+    justify-content: center;
+    margin: 20px;
+    color: black;
+    background-color: brown;
+
+}
+#cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+p{
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}

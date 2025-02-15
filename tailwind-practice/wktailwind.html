@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Navbar with Dropdown</title>
+</head>
+<body>
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-900">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-5">
+                <!-- Logo -->
+                <a href="#" class="text-neutral-400 text-4xl font-bold hover:text-white">Juicee</a>
+                
+                <!-- Navigation Links -->
+                <ul class="flex space-x-6 items-center">
+                    <li><a href="#" class="text-neutral-400 hover:text-white">About</a></li>
+                    <li><a href="#" class="text-neutral-400 hover:text-white">Services</a></li>
+                    <li><a href="#" class="text-neutral-400 hover:text-white">Pricing</a></li>
+                    <li><a href="#" class="text-neutral-400 hover:text-white">Contact</a></li>
+                    
+                    <!-- Dropdown Menu -->
+                    <li class="relative group">
+                        <button id="dropdownButton" class="text-neutral-400 hover:text-white flex items-center">
+                            More
+                            <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.584l3.71-4.354a.75.75 0 111.08 1.04l-4 4.5a.75.75 0 01-1.08 0l-4-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <div id="dropdownMenu" class="space-x-4 hidden group-hover:block absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Profile</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Settings</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+</body>
+</html>
